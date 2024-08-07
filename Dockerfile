@@ -22,6 +22,4 @@ WORKDIR /app
 COPY --from=build /app/dist/ ./dist/
 COPY --from=build /app/node_modules ./node_modules
 
-CMD [ "node", "dist/main.js" ]
-
 EXPOSE 3000

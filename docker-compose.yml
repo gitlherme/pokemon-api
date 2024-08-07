@@ -3,13 +3,11 @@ services:
     build:
       dockerfile: Dockerfile
       context: .
-    volumes:
-      - .:/usr/src/app
     env_file:
     - .env
+    command: ["node", "dist/src/main.js"]
     expose:
       - 3000
-    command: start:clusters
     ports:
       - 4000:3000
     tty: true
