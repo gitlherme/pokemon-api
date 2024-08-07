@@ -10,7 +10,7 @@ describe('PokemonOutput', () => {
       id: pokemonMock.id,
       name: pokemonMock.name,
       abilities: pokemon.abilities,
-      sprite: pokemonMock.sprites.front_default,
+      sprite: pokemonMock.sprites.other['official-artwork'].front_default,
       types: pokemonMock.types,
     };
 
