@@ -17,7 +17,7 @@ You can see this project running LIVE [here]('https://pokemon-api-0r35.onrender.
 ---
 
 ## Endpoints
-`/pokemons/{name}` - Returning the pokemon info; <br>
+`/pokemons/{name}` - Return the pokemon info; <br>
 `/api` - Return the swagger documentation;
 
 !['Swagger Docs'](https://i.imgur.com/NvfXtEQ.png)
