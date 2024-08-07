@@ -1,7 +1,7 @@
 # Pokemon Abilities Frontend
 This is a project created to display the pokémon abilities ordered by name alphabetically.
 
-You can see this project running LIVE [here]('https://pokemon-api-0r35.onrender.com/pokemons/pikachu').
+You can see this project running LIVE [here](https://pokemon-api-0r35.onrender.com/pokemons/pikachu).
 
 !['Pokemon ability'](https://i.imgur.com/zXK4qii.png)
 ---
