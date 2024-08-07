@@ -9,6 +9,7 @@ services:
     - .env
     expose:
       - 3000
+    command: start:clusters
     ports:
-      - 3000:3000
+      - 4000:3000
     tty: true
