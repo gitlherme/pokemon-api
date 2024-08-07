@@ -14,7 +14,7 @@ export class PokemonDataMapper {
       id: Number(pokemon.id),
       abilities: pokemon.abilities,
       name: pokemon.name,
-      sprite: pokemon.sprites.front_default,
+      sprite: pokemon.sprites.other['official-artwork'].front_default,
       types: pokemon.types,
     };
   }
