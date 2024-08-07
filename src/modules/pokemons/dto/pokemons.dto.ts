@@ -1,6 +1,6 @@
 import { Ability, Pokemon, Type } from '../entities/pokemon.entity';
 
-export interface IPokemonOutput {
+export interface IPokemonDataMapperOutput {
   id: number;
   abilities: Ability[];
   name: string;
@@ -9,7 +9,7 @@ export interface IPokemonOutput {
 }
 
 export class PokemonDataMapper {
-  static output(pokemon: Pokemon): IPokemonOutput {
+  static output(pokemon: Pokemon): IPokemonDataMapperOutput {
     return {
       id: Number(pokemon.id),
       abilities: pokemon.abilities,
