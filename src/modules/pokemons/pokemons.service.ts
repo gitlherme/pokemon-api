@@ -8,7 +8,7 @@ import { Ability, Pokemon } from './entities/pokemon.entity';
 export class PokemonsService {
   constructor(
     private readonly httpService: HttpService,
-    private configService: ConfigService,
+    private readonly configService: ConfigService,
   ) {}
 
   async findOne(name: string) {
